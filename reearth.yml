@@ -1,8 +1,8 @@
-id: text-pro-widget-exaplugin
-name: Text Pro Widget Plug-in
+id: textpro-widget-exaplugin
+name: Text pro Plug-in
 version: 1.0.0
 extensions:
-  - id: txtwidget
+  - id: textwidget
     type: widget
     name:  Text Pro Widget
     schema:
@@ -15,4 +15,8 @@ extensions:
             - id: color
               type: string
               title: Text Color
+              ui: color
+            - id: bgColor
+              type: string
+              title: Background Color
               ui: color
